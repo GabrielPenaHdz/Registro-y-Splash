@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/Usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UserLabel"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/Ussr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ems="10"
+        android:hint="@string/UserLabel"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toEndOf="@+id/Usuario"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <TextView
+        android:id="@+id/Contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PasswordLabel"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="210dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="5dp"
+        android:contextClickable="true"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/PaForm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toEndOf="@+id/Contraseña"
+        app:layout_constraintTop_toBottomOf="@+id/Ussr"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <Button
+        android:id="@+id/Acceso"
+        android:textColor="@color/black"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/OkLabel"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <Button
+        android:id="@+id/PaForm"
+        android:textColor="@color/black"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/PaForm"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SplashBueno</string>
+    <string name="UserLabel">Usuario</string>
+    <string name="PasswordLabel">Contraseña</string>
+    <string name="OkLabel">Acceder</string>
+    <string name="ContraLabel">Olvide contraseña</string>
+    <string name="PaForm">Registrate</string>
+    <string name="Name">Nombre</string>
+    <string name="Urss">Nombre de usuario</string>
+    <string name="Email">Correo Electronico</string>
+    <string name="Nacim">Fecha de nacimiento</string>
+    <string name="Telf">Telefono</string>
+    <string name="Fin">Finalizar registro</string>
+</resources>
