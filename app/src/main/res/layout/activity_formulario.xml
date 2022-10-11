@@ -34,7 +34,7 @@
 
     <EditText
         android:layout_marginLeft="25dp"
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/UsuarioR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -42,9 +42,9 @@
         android:inputType="textPersonName" />
 
     <RadioGroup
-        android:layout_marginLeft="25dp"
         android:layout_width="match_parent"
-        android:layout_height="162dp">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
 
         <TextView
             android:id="@+id/Gen"
@@ -53,23 +53,17 @@
             android:text="Genero" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/Masc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Masculino" />
 
         <RadioButton
 
-            android:id="@+id/radioButton6"
+            android:id="@+id/Fem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Femenino" />
-
-        <RadioButton
-            android:id="@+id/radioButton7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Venezuela" />
 
     </RadioGroup>
 
@@ -82,7 +76,7 @@
 
     <EditText
         android:layout_marginLeft="25dp"
-        android:id="@+id/ContraseñaRe"
+        android:id="@+id/ContraseñaR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -98,44 +92,12 @@
 
     <EditText
         android:layout_marginLeft="25dp"
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/EmailR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Correo Electronico"
         android:inputType="textEmailAddress" />
-
-    <TextView
-        android:layout_marginLeft="25dp"
-        android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Telf" />
-
-    <EditText
-        android:layout_marginLeft="25dp"
-        android:id="@+id/editTextPhone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Telefono "
-        android:inputType="phone" />
-
-    <TextView
-        android:layout_marginLeft="25dp"
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Nacim" />
-
-    <EditText
-        android:layout_marginLeft="25dp"
-        android:id="@+id/editTextDate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Fecha de nacimiento"
-        android:inputType="date" />
 
     <Button
         android:id="@+id/Registro"
@@ -143,4 +105,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Fin" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a login"
+        android:textColor="#020202" />
 </LinearLayout>
