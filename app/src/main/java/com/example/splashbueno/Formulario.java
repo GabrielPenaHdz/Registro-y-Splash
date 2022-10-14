@@ -57,6 +57,12 @@ public class Formulario extends AppCompatActivity {
                 info.setContraseña(String.valueOf(Contraseña.getText()));
                 info.setCorreo(String.valueOf(Correo.getText()));
                 List2Json(info,list);
+                if (Nombre.length() == 0){
+                    Toast.makeText(getApplicationContext(), "Debes poner un nombre valido", Toast.LENGTH_SHORT).show();
+                }
+                if (Contraseña.length() == 0){
+                    Toast.makeText(getApplicationContext(), "Debes poner una contraseña valida", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

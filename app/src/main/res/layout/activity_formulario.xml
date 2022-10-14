@@ -99,16 +99,39 @@
         android:hint="Correo Electronico"
         android:inputType="textEmailAddress" />
 
-    <Button
-        android:id="@+id/Registro"
-        android:textColor="@color/black"
-        android:layout_width="match_parent"
+    <Switch
+        android:id="@+id/Notis"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:text="@string/Fin" />
+        android:layout_marginLeft="25dp"
+        android:text="¿ Recibir notificaciones ?" />
+
+    <CheckBox
+        android:layout_marginLeft="25dp"
+        android:id="@+id/Correitos"
+        android:layout_width="365dp"
+        android:layout_height="25dp"
+        android:text="Notifiaciones al Email" />
+
+    <CheckBox
+        android:layout_marginLeft="25dp"
+        android:id="@+id/Pushup"
+        android:layout_width="365dp"
+        android:layout_height="25dp"
+        android:text="Notificaciones en el celular" />
 
     <Button
+        android:layout_marginLeft="25dp"
+        android:id="@+id/Registro"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Fin"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_marginLeft="25dp"
         android:id="@+id/volver"
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:text="Ir a login"
         android:textColor="#020202" />
