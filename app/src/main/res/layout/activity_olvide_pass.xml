@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OlvidePass">
+
+    <TextView
+        android:id="@+id/Lay"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Recuperar y cambiar contraseña"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/UsuarioOlv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PassOlv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ConfOlv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirma Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/BotonPa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar contraseña"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/Volv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a Login"
+        android:textColor="@color/black" />
+</LinearLayout>

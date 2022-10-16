@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/UserLabel"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="275dp"
         android:layout_marginLeft="5dp"/>
 
     <EditText
@@ -75,5 +75,13 @@
         android:text="@string/PaForm"
         tools:layout_editor_absoluteX="222dp"
         tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/Olv"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:text="Olvide mi contraseña"
+        android:textColor="@color/black" />
 
 </LinearLayout>
