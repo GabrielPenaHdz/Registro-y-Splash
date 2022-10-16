@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -40,6 +41,8 @@ public class Formulario extends AppCompatActivity {
         EditText Correo = findViewById(R.id.EmailR);
         RadioButton Masc = findViewById(R.id.Masc);
         RadioButton Fem = findViewById(R.id.Fem);
+
+
         Volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +59,7 @@ public class Formulario extends AppCompatActivity {
                 info.setUsuario(String.valueOf(Usuario.getText()));
                 info.setContraseña(String.valueOf(Contraseña.getText()));
                 info.setCorreo(String.valueOf(Correo.getText()));
+
                 List2Json(info,list);
                 if (Nombre.length() == 0){
                     Toast.makeText(getApplicationContext(), "Debes poner un nombre valido", Toast.LENGTH_SHORT).show();
@@ -94,7 +98,7 @@ public class Formulario extends AppCompatActivity {
             Log.d(TAG, json);
             writeFile(json);
         }
-        Toast.makeText(getApplicationContext(), "Ok", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Registro completado", Toast.LENGTH_SHORT).show();
     }
     private boolean writeFile(String text){
         File file = null;

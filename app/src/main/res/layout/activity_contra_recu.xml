@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Listop">
+    tools:context=".ContraRecu">
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="272dp"
-        android:layout_height="47dp"
-        android:text="Proximamente..."
+        android:id="@+id/textView6"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:text="Welcome to the jungle"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

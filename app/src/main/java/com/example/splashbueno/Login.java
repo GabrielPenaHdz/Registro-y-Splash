@@ -35,6 +35,7 @@ public class Login extends AppCompatActivity {
         Button Acceso = findViewById(R.id.Acceso);
         EditText usuario = findViewById(R.id.Ussr);
         EditText passws = findViewById(R.id.Password);
+        Button OlvidePipi = findViewById(R.id.Olv);
         Read();
         json2List(json);
         Acceso.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +53,14 @@ public class Login extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        OlvidePipi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Login.this, OlvidePass.class);
+                startActivity(i);
+            }
+        });
+
     }
     public boolean Read(){
         if(!isFileExits()){

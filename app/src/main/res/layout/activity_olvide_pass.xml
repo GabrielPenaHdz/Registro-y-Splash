@@ -1,54 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/recuperar"
     android:layout_height="match_parent"
     tools:context=".OlvidePass">
 
-    <TextView
-        android:id="@+id/Lay"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:text="Recuperar y cambiar contraseña"
-        android:textSize="24sp" />
-
     <EditText
         android:id="@+id/UsuarioOlv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="216dp"
         android:ems="10"
         android:hint="Usuario"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/PassOlv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:hint="Nueva Contraseña"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/ConfOlv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UsuarioOlv"
+        app:layout_constraintVertical_bias="0.452" />
 
     <EditText
         android:id="@+id/ConfOlv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="240dp"
         android:ems="10"
         android:hint="Confirma Contraseña"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/BotonPa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="52dp"
         android:text="Cambiar contraseña"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Volv"
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/Volv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="Ir a Login"
-        android:textColor="@color/black" />
-</LinearLayout>
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/ConfOlv"
+        tools:layout_editor_absoluteX="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
