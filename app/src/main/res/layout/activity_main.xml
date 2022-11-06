@@ -7,11 +7,13 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_marginTop="300dp"
         android:id="@+id/imageView"
         android:layout_width="412dp"
         android:layout_height="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/yacate"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

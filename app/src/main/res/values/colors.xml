@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="Cream">#EDBB99</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="MoradoNe">#c501e2</color>
+    <color name="RosaNe">#e830ce</color>
+    <color name="VerAG">#2ef8a0</color>
+    <color name="RosaS">#f82d97</color>
 </resources>

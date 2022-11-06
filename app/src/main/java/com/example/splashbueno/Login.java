@@ -100,6 +100,7 @@ public class Login extends AppCompatActivity {
         }
     }
     private File getFile(){
+
         return new File(getDataDir() , Formulario.archivo);
     }
 
@@ -115,6 +116,7 @@ public class Login extends AppCompatActivity {
         for(MyInfo myInfo : list){
             if (myInfo.getUsuario().equals(usr)&&myInfo.getContraseña().equals(passw)){
                 Intent intent = new Intent(Login.this, Listop.class);
+                intent.putExtra("MyInfo", myInfo);
                 startActivity(intent);
                 i = 1;
 
