@@ -14,6 +14,9 @@
         android:theme="@style/Theme.SplashBueno"
         tools:targetApi="31">
         <activity
+            android:name=".list_view"
+            android:exported="false" />
+        <activity
             android:name=".ContraRecu"
             android:exported="false" />
         <activity

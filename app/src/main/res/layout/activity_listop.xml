@@ -2,11 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextContras"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/degradado"
     android:padding="16dp"
-    android:background="@drawable/ciudadfondo"
     tools:context=".Listop">
+
 
     <TextView
         android:id="@+id/NewId"
@@ -21,34 +23,23 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.256" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="353dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+    <TextView
+        android:id="@+id/xd2"
+        android:layout_width="344dp"
+        android:layout_height="77dp"
 
-        android:layout_marginBottom="16dp"
+        android:text="Aqui estaría Yacate"
+        android:textAlignment="center"
+        android:textColor="@color/MoradoNe"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019">
-
-        <TextView
-            android:id="@+id/xd2"
-            android:layout_width="344dp"
-            android:layout_height="77dp"
-
-            android:text="Aqui estaría Yacate"
-            android:textAlignment="center"
-            android:textColor="@color/MoradoNe"
-            android:textSize="34sp"
-            tools:layout_editor_absoluteX="6dp"
-            tools:layout_editor_absoluteY="27dp" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView12"
@@ -62,6 +53,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/Contras"
+        android:textColor="@color/RosaNe"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="318dp"
+        android:layout_height="345dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
