@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuNuevoId"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_nuevo" />
+    <item
+        android:id="@+id/menuCopiarId"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="@string/menu_copiar" />
+    <item
+        android:id="@+id/menuPegarId"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="@string/menu_pegar" />
+    <item
+        android:id="@+id/menuAyudaId"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/menu_ayuda" />
+</menu>

@@ -16,4 +16,8 @@
     <string name="xd">Empty</string>
     <string name="Contras">PasswordTree:</string>
     <string name="bienvenido_label">¡Bienvenido!</string>
+    <string name="menu_nuevo">Nuevo</string>
+    <string name="menu_copiar">Copiar</string>
+    <string name="menu_pegar">Pegar</string>
+    <string name="menu_ayuda">Ayuda</string>
 </resources>
