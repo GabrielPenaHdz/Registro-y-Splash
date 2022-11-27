@@ -5,13 +5,13 @@
         android:icon="@android:drawable/ic_input_add"
         android:title="@string/menu_nuevo" />
     <item
-        android:id="@+id/menuCopiarId"
+        android:id="@+id/menuGuardarId"
         android:icon="?attr/actionModeCopyDrawable"
-        android:title="@string/menu_copiar" />
+        android:title="@string/menu_guardar" />
     <item
-        android:id="@+id/menuPegarId"
+        android:id="@+id/menuCerrarId"
         android:icon="?attr/actionModePasteDrawable"
-        android:title="@string/menu_pegar" />
+        android:title="@string/menu_cerrar" />
     <item
         android:id="@+id/menuAyudaId"
         android:icon="@android:drawable/ic_menu_help"

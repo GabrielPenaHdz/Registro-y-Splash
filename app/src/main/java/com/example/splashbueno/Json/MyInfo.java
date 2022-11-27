@@ -5,6 +5,8 @@ import android.widget.EditText;
 import com.example.splashbueno.R;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MyInfo implements Serializable {
     private String Nombre;
@@ -14,6 +16,15 @@ public class MyInfo implements Serializable {
     private String Telefono;
     private String Fecha;
     private  Boolean genero;
+    private List<MyData> contras = new ArrayList<>();
+
+    public List<MyData> getContras() {
+        return contras;
+    }
+
+    public void setContras(List<MyData> contras) {
+        this.contras = contras;
+    }
 
     public String getNombre() {
         return Nombre;

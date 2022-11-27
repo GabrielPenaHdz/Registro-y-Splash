@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Login extends AppCompatActivity {
-    private List<MyInfo> list;
+    public static List<MyInfo> list;
     public static String TAG = "mensaje";
     String json = null;
     public static String usr,passw;
